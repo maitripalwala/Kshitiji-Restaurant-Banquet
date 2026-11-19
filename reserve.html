@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reserve a Table | Kshitij Restaurant</title>
+<meta name="description" content="Book a table or enquire about the banquet at Kshitij Restaurant on WhatsApp.">
+<meta name="theme-color" content="#0D0B08">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E🪔%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="tb"><div class="wrap"><span>WhatsApp &amp; Call: <a target="_blank" rel="noopener" href="https://wa.me/919924294440">+91 99242 94440</a></span><span class="l">Follow us:<a target="_blank" rel="noopener" href="https://www.instagram.com/kshitij.restaurant/">Instagram</a><a target="_blank" rel="noopener" href="https://www.facebook.com/kshitij.surat/">Facebook</a></span></div></div>
+<header><div class="wrap nav">
+<a href="index.html" class="brand">Kshitij<small>Restaurant &amp; Banquet</small></a>
+<nav><ul id="nl"><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="banquet.html">Banquet</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+<a href="reserve.html" class="btn gold" style="padding:9px 20px">Reserve a Table</a>
+<button class="menu-btn" id="mb" aria-label="Open menu">☰</button>
+</div></header>
+<main id="top">
+
+<div class="phead"><div class="wrap"><div class="eyebrow">Reservations</div><h1 class="title">Book a table</h1></div></div>
+<section style="padding-top:34px"><div class="wrap grid2" style="align-items:start">
+<div><p class="lead">Fill in the details and we’ll open WhatsApp with your request ready to send. Our team will confirm your booking there.</p></div>
+<form class="f" id="rf" style="margin-top:0">
+<div><label for="n">Your name</label><input id="n" required></div>
+<div><label for="ph">Phone</label><input id="ph" type="tel" required></div>
+<div><label for="dt">Date</label><input id="dt" type="date" required></div>
+<div><label for="tm">Time</label><input id="tm" type="time" required></div>
+<div><label for="g">Guests</label><input id="g" type="number" min="1" max="200" value="2" required></div>
+<div><label for="oc">Occasion</label><select id="oc"><option>Dining</option><option>Birthday</option><option>Family Gathering</option><option>Banquet Event</option><option>Other</option></select></div>
+<div class="full"><label for="nt">Notes (optional)</label><textarea id="nt" rows="3"></textarea></div>
+<div class="full"><button class="btn gold" type="submit">Send on WhatsApp</button></div>
+</form></div></section>
+</main>
+<footer><div class="wrap fl"><span>© 2026 Kshitij Restaurant, Adajan, Surat. All rights reserved.</span>
+<span><a target="_blank" rel="noopener" href="https://wa.me/919924294440">WhatsApp +91 99242 94440</a> · <a target="_blank" rel="noopener" href="https://www.instagram.com/kshitij.restaurant/">Instagram</a> · <a target="_blank" rel="noopener" href="https://www.facebook.com/kshitij.surat/">Facebook</a></span></div></footer>
+<a class="wa" target="_blank" rel="noopener" href="https://wa.me/919924294440?text=Hello%20Kshitij%20Restaurant" aria-label="Chat on WhatsApp">💬 WhatsApp</a>
+<div class="lb" id="lb"><button class="x" aria-label="Close">×</button><button class="pv" aria-label="Previous">‹</button><img id="lbi" alt=""><button class="nx" aria-label="Next">›</button></div>
+<script src="menu-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
